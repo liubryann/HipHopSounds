@@ -4,7 +4,7 @@
     android:layout_width="fill_parent">
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <Button
@@ -12,8 +12,8 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:drawableLeft="@drawable/migos"
-            android:layout_gravity="left"
+            android:drawableStart="@drawable/migos"
+            android:paddingEnd="35sp"
             android:text="@string/migos"
             android:textSize="35sp"
             android:textColor="#FFC400"
@@ -24,8 +24,9 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="@string/pump"
-            android:drawableLeft="@drawable/pump"
-            android:paddingLeft="20sp"
+            android:drawableStart="@drawable/pump"
+            android:paddingStart="20sp"
+            android:paddingEnd="20sp"
             android:textSize="35sp"
             android:textColor="#D81B60"
             android:background="#43A047"/>
@@ -34,8 +35,9 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:text="@string/liluzi"
-            android:drawableLeft="@drawable/liluzi"
-            android:paddingLeft="20sp"
+            android:drawableStart="@drawable/liluzi"
+            android:paddingStart="20sp"
+            android:paddingEnd="20sp"
             android:textSize="35sp"
             android:textColor="#880E4F"
             android:background="#1A237E"/>
