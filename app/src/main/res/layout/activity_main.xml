@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/migos"
+            android:layout_gravity="left"
+            android:text="@string/migos"
+            android:textSize="35sp"
+            android:textColor="#FFC400"
+            android:background="#000"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/pump"
+            android:drawableLeft="@drawable/pump"
+            android:paddingLeft="20sp"
+            android:textSize="35sp"
+            android:textColor="#D81B60"
+            android:background="#43A047"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/liluzi"
+            android:drawableLeft="@drawable/liluzi"
+            android:paddingLeft="20sp"
+            android:textSize="35sp"
+            android:textColor="#880E4F"
+            android:background="#1A237E"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
