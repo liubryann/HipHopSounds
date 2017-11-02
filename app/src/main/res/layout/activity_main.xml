@@ -8,7 +8,7 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/migosButton"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -17,9 +17,11 @@
             android:text="@string/migos"
             android:textSize="35sp"
             android:textColor="#FFC400"
-            android:background="#000"/>
+            android:background="#000"
+            android:onClick="openMigosList"/>
 
         <Button
+            android:id="@+id/pumpButton"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -29,18 +31,34 @@
             android:paddingEnd="20sp"
             android:textSize="35sp"
             android:textColor="#D81B60"
-            android:background="#43A047"/>
+            android:background="#dbd38e"
+            android:onClick="openPumpList"/>
+
+        <Button
+            android:id="@+id/uziButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#1A237E"
+            android:drawableStart="@drawable/liluzi"
+            android:onClick="openUziList"
+            android:paddingEnd="20sp"
+            android:paddingStart="20sp"
+            android:text="@string/liluzi"
+            android:textColor="#880E4F"
+            android:textSize="35sp" />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:text="@string/liluzi"
-            android:drawableStart="@drawable/liluzi"
-            android:paddingStart="20sp"
-            android:paddingEnd="20sp"
+            android:text="@string/savage"
             android:textSize="35sp"
-            android:textColor="#880E4F"
-            android:background="#1A237E"/>
+            android:background="#730000"
+            android:drawableStart="@drawable/savage"
+            android:paddingStart="25sp"
+            android:paddingEnd="25sp"
+            android:onClick="openTwentyOneList"/>
 
 
     </LinearLayout>

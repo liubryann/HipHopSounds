@@ -1,6 +1,9 @@
 <resources>
+    <string name="speaker">🔊</string>
     <string name="app_name">HipHopSounds</string>
-    <string name = "migos">Migos</string>
-    <string name = "pump">Lil Pump</string>
+    <string name="migos">Migos</string>
+    <string name="pump">Lil Pump</string>
     <string name="liluzi">Lil Uzi Vert</string>
+    <string name="savage">21 Savage</string>
+
 </resources>
